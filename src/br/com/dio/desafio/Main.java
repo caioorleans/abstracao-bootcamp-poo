@@ -44,6 +44,7 @@ public class Main {
 		dev1.progredir();
 		System.out.println("Conteudos Inscritos Caio: " + dev1.getConteudosInscritos());
 		System.out.println("Conteudos Concluidos Caio: " + dev1.getConteudosConcluidos());
+		System.out.println("XP: " + dev1.calcularTotalXp());
 		
 		Dev dev2 = new Dev();
 		dev2.setNome("Clau");
